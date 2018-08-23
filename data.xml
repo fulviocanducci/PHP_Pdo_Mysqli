@@ -1,0 +1,18 @@
+<pais>
+<pai a='1'>
+  <filha>
+    <codigo>1</codigo>
+  </filha>
+  <outrafilha>
+    <codigo>2</codigo>
+  </outrafilha>
+</pai>
+<pai a='2'>
+  <filha>
+    <codigo>3</codigo>
+  </filha>
+  <outrafilha>
+    <codigo>4</codigo>
+  </outrafilha>
+</pai>
+</pais>
