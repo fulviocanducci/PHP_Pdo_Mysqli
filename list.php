@@ -9,7 +9,7 @@
    </tr>
    <tr>
       <td colspan="3" class="text-center">
-         <form action="<?php echo $_SERVER['PHP_SELF'] ;?>" method="get">
+         <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="get">
             <div class="row">
                <div class="col-lg-3"></div>
                <div class="col-lg-6">
@@ -17,7 +17,7 @@
                      <input type="text" 
                         name="filter" 
                         id="filter" 
-                        value="<?php echo $filter;?>" 
+                        value="<?php echo $filter; ?>" 
                         class="form-control" 
                         placeholder="Filtrar ...">
                      <span class="input-group-btn">
@@ -42,7 +42,7 @@
       <td style="width:10%" class="text-center"><?php echo str_pad($value->id, 5, '00000', 0); ?></td>
       <td style="width:70%"><?php echo $value->description; ?></td>
       <td style="width:20%" class="text-center">
-         <a href="edit.php?id=<?php echo $value->id;?>" class="btn btn-default">
+         <a href="edit.php?id=<?php echo $value->id; ?>" class="btn btn-default">
             <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
             Alterar
          </a>
