@@ -10,6 +10,7 @@ class database extends pdo
 
 	public function prepareSql($sql, $items = null)
 	{
+				
 		$stmt = $this->prepare($sql);
 		if ($items)
 		{
